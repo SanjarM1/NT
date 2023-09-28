@@ -1,0 +1,60 @@
+.section7 {
+    width: 1060px;
+    height: 304px;
+    border-radius: 8px;
+    background: url(/images/vector.png);
+    margin: 0 auto 100px auto;
+    padding: 63px 64px;
+}
+
+.section7_title {
+    width: 454px;
+    color: var(--color4);
+    font-family: Roboto Regular;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 1.6px;
+    margin-bottom: 33.2px;
+}
+
+.section7_price {
+    color: var(--color1);
+    font-family: Roboto Regular;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.section7_text {
+    width: 124px;
+    color: var(--color3);
+    font-family: Roboto Regular;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+}
+
+.section7_content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section7_btn {
+    color: var(--color4);
+    text-align: center;
+    font-family:Roboto Regular;
+    font-size: 13px;
+    line-height: 24px;
+    background: var(--color5);
+    padding: 12px 44px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+.section7_btn:hover{
+    background: rgb(70, 118, 70);
+}
+.section7_btn:active{
+    background: rgb(30, 55, 30);
+}

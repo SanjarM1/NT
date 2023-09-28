@@ -1,0 +1,76 @@
+header {
+    width: 100%;
+}
+
+.header_note {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    gap: 10px;
+    background: var(--color1);
+}
+
+.header_note-text {
+    color: var(--color2);
+    text-align: center;
+    font-family: Roboto Regular;
+    font-size: 11px;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 97px;
+    padding: 30px 80px;
+    background: var(--color2);
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar_list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar_list li {
+    list-style: none;
+}
+
+.navbar_list li a {
+    text-decoration: none;
+    color: var(--color3);
+    font-family: Roboto Regular;
+    font-size: 15px;
+    line-height: 24px;
+    /* 160% */
+    letter-spacing: 0.32px;
+}
+.navbar_btn-box{
+    margin-left: 610px;
+}
+.navbar_btn {
+    color: var(--color4);
+    font-family: Roboto Regular;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    padding: 8px 25.5px 8px 25.5px;
+    border-radius: 4px;
+    background: var(--color5);
+    border: none;
+    cursor: pointer;
+}
+.navbar_btn:hover{
+    background: rgb(70, 118, 70);
+}
+.navbar_btn:active{
+    background: rgb(30, 55, 30);
+}

@@ -1,0 +1,35 @@
+@import url(./header.css);
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+@import url(./section4.css);
+@import url(./section5.css);
+@import url(./section6.css);
+@import url(./section7.css);
+@import url(./footer.css);
+
+@font-face {
+    font-family: Roboto Regular;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+:root{
+    --color1: #ADC9A6;
+    --color2: #153C3C;
+    --color3: #DDE4E4;
+    --color4: #fff;
+    --color5: #84A17D;
+    --color6: #F3F7F2;
+    --color7: #172426;
+    --color8: #F2F8F8;
+    --color9: #6C8989;
+    --color10: #F4F5F6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body, main{
+    width: 100%;
+}
